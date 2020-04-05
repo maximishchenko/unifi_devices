@@ -10,10 +10,6 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-"""
-Написать README.md
-"""
-
 conf = config()
 url = conf.get_unifi_url()
 username = conf.get_unifi_username()

@@ -21,7 +21,3 @@ class config(object):
 	''' Возвращает пароль пользователя UnifiController из файла конфигурации '''
 	def get_unifi_password(self):
 		return self.config.get('UNIFI', 'password')
-
-	''' Возвращает путь к файлу журнала событий из файла конфигурации '''
-	def get_log_filepath(self):
-		return self.config.get('LOG', 'file')
