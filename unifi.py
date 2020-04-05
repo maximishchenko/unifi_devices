@@ -114,7 +114,7 @@ class unifi(object):
 		for device in lists:
 			mac = device.get('mac')
 			logging.info( u'Перезагрузка устройтва ' + mac)
-			#self.__restart_device(mac)
+			self.__restart_device(mac)
 
 	def __disconnect(self):
 		pass
