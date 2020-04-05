@@ -1,0 +1,4 @@
+[UNIFI]
+url=https://1.2.3.4:8443
+username=unifi_conroller_user
+password=unifi_conroller_password
