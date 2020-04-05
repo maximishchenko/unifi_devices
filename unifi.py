@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import requests
 import logging
 import json
@@ -116,5 +119,6 @@ class unifi(object):
 			logging.info( u'Перезагрузка устройтва ' + mac)
 			self.__restart_device(mac)
 
+	''' Производит отключение от контроллера '''
 	def __disconnect(self):
 		pass
